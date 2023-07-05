@@ -6,7 +6,8 @@
 # 1) Crear una variable que contenga un elemento del conjunto de números enteros y luego imprimir por pantalla
 
 # In[7]:
-
+num=5
+print(num)
 
 
 
@@ -14,15 +15,15 @@
 
 # In[3]:
 
-
+type(8.5)
 
 
 
 # 3) Imprimir el tipo de dato de la variable creada en el punto 1
 
 # In[8]:
-
-
+num=5
+type(num)
 
 
 
@@ -30,14 +31,14 @@
 
 # In[2]:
 
-
+mi_nombre="Octavio Vercellone"
 
 
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
 
-
+num2=43j
 
 
 
@@ -45,7 +46,7 @@
 
 # In[4]:
 
-
+type(num2)
 
 
 
@@ -61,7 +62,8 @@ pi = 3.1416
 
 # In[3]:
 
-
+var1 = "True"
+var2 = True
 
 
 
@@ -69,7 +71,7 @@ pi = 3.1416
 
 # In[5]:
 
-
+print("La opcion1 es de valor: ", type(var1), "y la variable opcion 2 es de tipo: ", type(var2))
 
 
 
@@ -77,7 +79,7 @@ pi = 3.1416
 
 # In[1]:
 
-
+num+4+3,56
 
 
 
@@ -85,7 +87,9 @@ pi = 3.1416
 
 # In[2]:
 
-
+a=24 + 5j
+b=45 + 4j
+print(a+b)
 
 
 
@@ -93,7 +97,9 @@ pi = 3.1416
 
 # In[4]:
 
-
+x=5
+y=7j
+print(x+y)
 
 
 
@@ -101,7 +107,8 @@ pi = 3.1416
 
 # In[5]:
 
-
+multi=4*5
+print(multi)
 
 
 
@@ -109,14 +116,16 @@ pi = 3.1416
 
 # In[6]:
 
-
+potenciacion=2**8
+print(potenciacion)
 
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
 
 # In[8]:
 
-
+division=27/4
+print(division)
 
 
 
@@ -124,7 +133,7 @@ pi = 3.1416
 
 # In[9]:
 
-
+print(27//4)
 
 
 
@@ -132,7 +141,7 @@ pi = 3.1416
 
 # In[1]:
 
-
+print(27%4)
 
 
 
@@ -140,7 +149,8 @@ pi = 3.1416
 
 # In[2]:
 
-
+num1=4*6+3
+print(num1)
 
 
 
@@ -148,7 +158,9 @@ pi = 3.1416
 
 # In[3]:
 
-
+var1="Hola "
+var2="Buenos dias!!!"
+print(var1+var2)
 
 
 
@@ -156,7 +168,7 @@ pi = 3.1416
 
 # In[4]:
 
-
+"2"==2
 
 
 
@@ -164,7 +176,7 @@ pi = 3.1416
 
 # In[11]:
 
-
+2==int("2")
 
 
 
@@ -172,7 +184,7 @@ pi = 3.1416
 
 # In[12]:
 
-
+a = float("3,8")
 
 
 
@@ -180,6 +192,9 @@ pi = 3.1416
 
 # In[15]:
 
+far=3
+far-=1
+print(far)
 
 
 
@@ -189,14 +204,14 @@ pi = 3.1416
 # In[29]:
 
 
-
+1<<2
 
 
 # 25) Realizar la operación 2 + '2' ¿Por qué no está permitido? ¿Si los dos operandos serían del mismo tipo, siempre arrojaría el mismo resultado?
 
 # In[23]:
 
-
+2+"2"
 
 
 
@@ -205,5 +220,7 @@ pi = 3.1416
 
 # In[30]:
 
+2+int("3")
 
 
+# %%
